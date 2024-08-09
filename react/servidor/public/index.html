@@ -20,9 +20,6 @@
     }
 
     header {
-      width: 100vw;
-      height: 100vh;
-
       background-image: url("https://img.freepik.com/fotos-premium/espaco-de-trabalho-moderno-plano-com-xicara-de-cafe-para-laptop-de-computador-e-livro-na-mesa-preta_35674-14741.jpg");
       background-size: cover;
     }
@@ -32,28 +29,24 @@
     }
 
     .texto {
-      margin-top: 30vh;
+      margin-top: auto+5%;
     }
 
     section {
-      width: 100vw;
+     width: 100%;
       margin-top: 0vh;
-
     }
 
     @media (min-width: 768px) {
       section {
-        height: 85vh;
+      
         margin-top: 25vh;
       }
 
-      .nossosServico {
-        margin-left: auto;
-        margin-right: auto;
-      }
+      
 
       .clientesSction p {
-        margin-left: 3vw;
+      
       }
     }
 
@@ -76,7 +69,7 @@
 
 <body>
   <header>
-    <div class="conteiner-fluid text-light">
+    <div class="container-fluid text-light">
       <div class="row">
         <div class="col-7 m-5">
           <img class="img_header" src="https://th.bing.com/th/id/OIP.mxPCFr-4yMzS1wqv8It6lgAAAA?rs=1&pid=ImgDetMain"
@@ -126,11 +119,11 @@
 
 
     <section>
-      <div class="conteiner text-light">
-        <div class="row gx-5 nossosServico">
-          <div class="col-11 col-md-4 col-lg-4 ms-3">
+      <div class="container text-light">
+        <div class="row">
+          <div class="col-11 col-md-4 col-lg-4 ms-3 ">
             <p class="fs-1 ">Nossos Serviços</p>
-            <img class="img-thumbnail"
+            <img class="img-thumbnail col-sm-10"
               src="https://th.bing.com/th/id/R.90d5c9b799078cd561d4ac436e050b71?rik=ifzGd8yhP7hBPQ&pid=ImgRaw&r=0"
               alt="" />
           </div>
@@ -163,23 +156,26 @@
         </div>
       </div>
     </section>
+
+    
     <section class="clientesSction">
-      <div class="container m-3">
-        <div class="row gx-5">
+      <div class="container ">
+        <div class="row ms-1">
           <div class="col-11 col-md-9">
-            <p class="fs-1 fw-bolder ms-5">Nossos Clientes</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            <p class="fs-1 fw-bolder ">Nossos Clientes</p>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
               laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
         </div>
-        <div class="row ms-1 gy-4">
+        <div class="row gy-4 ms-2">
           <div class="col-10 col-md-4">
             <img class="img-thumbnail"
               src="https://www.eaglemat.com/blog/wp-content/uploads/2012/12/A-Guide-to-In-Store-customer-Experience-Enhancement.jpg"
               alt="">
           </div>
-          <div class="col-10 col-md-4"><img class="img-thumbnail"
+          <div class="col-10 col-md-4">
+            <img class="img-thumbnail"
               src="https://www.eaglemat.com/blog/wp-content/uploads/2012/12/A-Guide-to-In-Store-customer-Experience-Enhancement.jpg"
               alt="">
           </div>
@@ -193,7 +189,7 @@
       </div>
     </section>
 
-    <section style="height: 70vh;">
+    <section >
       <div class="container text-center text-light">
         <div class="row ms-1">
           <div class="col mt-5">
@@ -239,7 +235,7 @@
         </div>
         <div class="row g-5 ">
           <div class="col-6 col-md-3">
-            <p class="fs4">Consectetur</p>
+            <p class="fs4 fw-bolder">Consectetur</p>
             <a href="#">Lorem ipsum</a><a href="#">dolor sit amet, </a>
             <a href="#">consectetur adipiscing </a>
             <a href="#"> elit,sed do eiusmod </a>
@@ -248,7 +244,7 @@
             <a href="#"> dolore magna aliqua</a>
           </div>
           <div class="col-6 col-md-3">
-            <p class="fs4">Loren</p>
+            <p class="fs4 fw-bolder">Loren</p>
             <a href="#">Lorem ipsum</a><a href="#">dolor sit amet, </a>
             <a href="#">consectetur adipiscing </a>
             <a href="#"> elit,sed do eiusmod </a>
@@ -257,7 +253,7 @@
             <a href="#"> dolore magna aliqua</a>
           </div>
           <div class="col-6 col-md-3">
-            <p class="fs4">Sobre</p>
+            <p class="fs4 fw-bolder">Sobre</p>
             <a href="#">Lorem ipsum</a><a href="#">dolor sit amet, </a>
             <a href="#">consectetur adipiscing </a>
             <a href="#"> elit,sed do eiusmod </a>
@@ -266,7 +262,7 @@
             <a href="#"> dolore magna aliqua</a>
           </div>
           <div class="col-6 col-md-3">
-            <p class="fs4">Topicos</p>
+            <p class="fs4 fw-bolder">Topicos</p>
             <a href="#">Lorem ipsum</a><a href="#">dolor sit amet, </a>
             <a href="#">consectetur adipiscing </a>
             <a href="#"> elit,sed do eiusmod </a>
